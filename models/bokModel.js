@@ -7,7 +7,8 @@ var BokSchema = new mongoose.Schema(
     date_published: String,
     category: String,
     read: Boolean,
-    date: Array,
+    date_started: String,
+    date_finished:String,
     rating: Number,
   },
   {
